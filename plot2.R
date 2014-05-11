@@ -1,4 +1,4 @@
-setwd("c:/users/kovlac.3/ExData_Plotting1")
+#setwd("c:/users/kovlac.3/ExData_Plotting1")
 getwd()
 par(mfrow= c(1,1))
 
@@ -21,4 +21,7 @@ plot(data2$Global_active_power ~ data2$DateTime, type="l" , xlab="",  ylab="Glob
 
 dev.copy(png, file = "figure/plot2.png")
 dev.off()
+
+
+
 

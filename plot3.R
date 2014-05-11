@@ -1,4 +1,4 @@
-setwd("c:/users/kovlac.3/ExData_Plotting1")
+#setwd("c:/users/kovlac.3/ExData_Plotting1")
 getwd()
 par(mfrow= c(1,1))
 

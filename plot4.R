@@ -1,4 +1,4 @@
-setwd("c:/users/kovlac.3/ExData_Plotting1")
+#setwd("c:/users/kovlac.3/ExData_Plotting1")
 getwd()
 
 
@@ -33,10 +33,6 @@ plot(data2$Global_reactive_power ~ data2$DateTime,  cex.lab =0.8, cex.axis =0.8 
 
 
 
-
-
-
-
-
+######
 dev.copy(png, file = "figure/plot4.png")
 dev.off()

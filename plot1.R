@@ -1,5 +1,6 @@
-setwd("c:/users/kovlac.3/ExData_Plotting1")
+#setwd("c:/users/kovlac.3/ExData_Plotting1")
 getwd()
+par(mfrow= c(1,1))
 
 data <-read.csv("household_power_consumption.txt", stringsAsFactors=FALSE, sep= ";", header=T)
 
